@@ -3,7 +3,7 @@ header, footer, article, figure {
 			body {
 				color: #666666;
 				background-color: #f9f8f6;
-				background-image: url("images/concert.jpg");
+				background-image: url("img/concert.jpg");
 				background-position: center;
 				font-family: Georgia, Times, serif;
 				line-height: 1.4em;
