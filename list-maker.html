@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List Maker</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 id="header">List Maker</h1>
+            <p>Just click to edit the title and items. Use the check boxes to mark items as complete, and the X to delete items. You can also save your list to your browser using the save list button. Use this to make to-do lists, grocery lists, whatever you need!</p>
+            <hr>
+            <div contenteditable="true">
+                <h2>List Title</h2>
+            </div>
+            <ul>
+                <li><input type="checkbox"><div class="inLine" contenteditable="true">new item</div><button href="#" class="inLine2">X</button></li>
+                <li><input type="checkbox"><div class="inLine" contenteditable="true">new item</div><button href="#" class="inLine2">X</button></li>
+                <li><input type="checkbox"><div class="inLine" contenteditable="true">new item</div><button href="#" class="inLine2">X</button></li>
+            </ul>
+            <button href="#" class = "menu" id="new">new item</button>
+            <button href="#" class = "menu" id="save">save list</button>
+            <button href="#" class = "menu" id="clear">reset list</button>
+        </div>
+        <script src="js/jquery-1.11.0.js"></script>
+        <script src="js/listMaker2.js"></script>
+    </body>
+</html>
