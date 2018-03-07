@@ -1,8 +1,5 @@
 ### webdev TODO:
 
-- navbar looks weird (index.html)
-- add navbar to all sites
-- convert PHP to javascript
-    - learn heroku
+- the PHP sites are still on FAU's server, need to convert them to heroku apps
 - update youtube links
 - fix currency converter
